@@ -6,10 +6,10 @@ numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 
 # 2. Print the difference between the largest and smallest value:
-
+x = max(5, 10)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-
+# https://stackoverflow.com/questions/25215494/how-to-check-if-previous-element-is-similar-to-next-elemnt-in-python
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
