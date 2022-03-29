@@ -92,3 +92,5 @@ users["Erik"]["pets"].append(new_erik_pet)
 print(f'New Erik\'s pets collection: {users["Erik"]["pets"]}')
 
 # 10. Add another person to the users dictionary
+users["Sandra"] = {}
+print(users)
