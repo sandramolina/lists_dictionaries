@@ -10,7 +10,9 @@ for number in numbers:
 print(even_numbers)
 
 # 2. Print the difference between the largest and smallest value:
-x = max(5, 10)
+max_number = max(numbers)
+min_number = min(numbers)
+print(max_number - min_number)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 # https://stackoverflow.com/questions/25215494/how-to-check-if-previous-element-is-similar-to-next-elemnt-in-python
