@@ -68,10 +68,19 @@ print(f'Avril\'s pet is a {users["Avril"]["pets"][0]["species"]}')
 
 # 5. Get the smallest of Erik's lottery numbers
 erik_min_lottery = min(users["Erik"]["lottery_numbers"])
-print(erik_min_lottery)
+print(f'Smallest Erik\'s lottery number is {erik_min_lottery}')
 
 # 6. Return an list of Avril's lottery numbers that are even
+avril_lottery_list = users["Avril"]["lottery_numbers"]
+avril_lottery_list_even = []
+for number in avril_lottery_list:
+  if number % 2 == 0:
+    avril_lottery_list_even.append(number)
+print(f'List of Avril\'s lottery numbers is: {avril_lottery_list_even}')
+
+
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+
 # 8. Change Erik's hometown to Edinburgh
 # 9. Add a pet dog to Erik called "fluffy"
 # 10. Add another person to the users dictionary
