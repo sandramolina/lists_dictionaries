@@ -26,5 +26,8 @@ stops.pop(2)
 print(f'Total stops in the list is {len(stops)}')
 
 #8. Sort the list alphabetically
+stops.sort()
+print(stops)
+
 #9. Reverse the positions of the stops in the list
 #10 Print out all the stops using a for loop
