@@ -87,4 +87,8 @@ users["Erik"]["home_town"] = "Edinburgh"
 print(f'New Erik\'s hometown is {users["Erik"]["home_town"]}')
 
 # 9. Add a pet dog to Erik called "fluffy"
+new_erik_pet = {"name": "fluffy"}
+users["Erik"]["pets"].append(new_erik_pet)
+print(f'New Erik\'s pets collection: {users["Erik"]["pets"]}')
+
 # 10. Add another person to the users dictionary
