@@ -59,7 +59,10 @@ print(f'Jonnys twitter is {users["Jonathan"]["twitter"]}')
 
 # 2. Get Erik's hometown
 print(f'Eriks hometown is {users["Erik"]["home_town"]}')
+
 # 3. Get the list of Erik's lottery numbers
+print(f'Eriks lottery numbers list is {users["Erik"]["lottery_numbers"]}')
+
 # 4. Get the species of Avril's pet Monty
 # 5. Get the smallest of Erik's lottery numbers
 # 6. Return an list of Avril's lottery numbers that are even
