@@ -15,7 +15,7 @@ print(max_number - min_number)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 # I used help from this link: https://stackoverflow.com/questions/25215494/how-to-check-if-previous-element-is-similar-to-next-elemnt-in-python
-# I can see a possible bug on my code for the cases where the 2 is found on the extremes therefore index +/- 1 may not exist. I'm exhausted so will look into it when my head is not killing me :)
+# Even though the code works for the currernt list, I can see a possible bug on my code for the cases where the 2 is found on the extremes therefore index +/- 1 may not exist. I'm exhausted so will look into it when my head is not killing me :)
 for index, number in enumerate(numbers):
     # print(index, number, numbers[index - 1])
     if number == 2:
@@ -36,6 +36,15 @@ for index, number in enumerate(numbers):
 #    HINT - You will need to track the index throughout the loop.
 #
 #    So [5, 13, 2] would have sum of 5. 
+
+total_sum_numbers = 0
+for index, number in enumerate(numbers):
+    if number != 13:
+        total_sum_numbers += number
+    if numbers[index - 1] == 13:
+        total_sum_numbers -= number
+print(total_sum_numbers)
+
 
 
 
