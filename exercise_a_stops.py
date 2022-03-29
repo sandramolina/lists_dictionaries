@@ -14,14 +14,15 @@ stops.insert(0, "Glasgow Queen St")
 stops.insert(4, "Polmont")
 
 #4. Print out the index position of "Linlithgow"
-# ['Glasgow Queen St', 'Croy', 'Cumbernauld', 'Falkirk High', 'Polmont', 'Linlithgow', 'Livingston', 'Haymarket', 'Edinburgh Waverley']
 print(stops.index("Linlithgow"))
 
 #5. Remove "Livingston" from the list using its name
 stops.remove("Livingston")
-print(stops)
 
 #6. Delete "Cumbernauld" from the list by index
+stops.pop(2)
+print(stops)
+
 #7. Print the number of stops there are in the list
 #8. Sort the list alphabetically
 #9. Reverse the positions of the stops in the list
