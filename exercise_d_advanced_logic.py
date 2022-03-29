@@ -1,8 +1,4 @@
 # For the following list of numbers:
-
-from cmath import nan
-
-
 numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
@@ -19,13 +15,14 @@ print(max_number - min_number)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 # I used help from this link: https://stackoverflow.com/questions/25215494/how-to-check-if-previous-element-is-similar-to-next-elemnt-in-python
-
+# I can see a possible bug on my code for the cases where the 2 is found on the extremes therefore index +/- 1 may not exist. I'm exhausted so will look into it when my head is not killing me :)
 for index, number in enumerate(numbers):
     # print(index, number, numbers[index - 1])
     if number == 2:
         if number == numbers[index - 1] or number == numbers[index + 1]:        
             print(True)
             break
+
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
