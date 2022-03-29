@@ -1,7 +1,3 @@
-from operator import index, indexOf
-from tracemalloc import stop
-
-
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 #1. Add "Edinburgh Waverley" to the end of the list
@@ -30,7 +26,8 @@ stops.sort()
 print(stops)
 
 #9. Reverse the positions of the stops in the list
-
+reverse_stop = sorted(stops, reverse=True)
+print(reverse_stop)
 
 #10 Print out all the stops using a for loop
 for stop in stops:
